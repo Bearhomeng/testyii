@@ -37,7 +37,7 @@ AppAsset::register($this);
                 'items' => [
                     ['label' => '首页', 'url' => ['/site/index']],
                     ['label' => '活动', 'url' => ['/site/index']],
-                    ['label' => '项目', 'url' => ['/site/index']],
+                    ['label' => '项目', 'url' => ['/project/index']],
                     ['label' => '讨论', 'url' => ['/site/index']],
                     ['label' => '班级', 'url' => ['/site/index']],
                     ['label' => '关于', 'url' => ['/site/about']],

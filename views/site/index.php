@@ -1,5 +1,6 @@
 <?php
 /* @var $this yii\web\View */
+use yii\helpers\Html;
 $this->title = '校园软件项目协作平台';
 ?>
 <div class="site-index">
@@ -9,7 +10,10 @@ $this->title = '校园软件项目协作平台';
 
         <p class="lead">这里是校园软件项目协作平台，帮助您随时随地工作，在线项目协作，与同学老师交流、互动。</p>
 
-        <p><a class="btn btn-lg btn-success" href="">创建项目</a></p>
+        <p>
+        	<!--<a class="btn btn-lg btn-success" href="">创建项目</a>-->
+        	<?= Html::a('创建项目', ['/project/create'], ['class' => 'btn btn-lg btn-success']) ?>
+        </p>
     </div>
 
     <div class="body-content">
